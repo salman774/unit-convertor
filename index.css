@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1rem;
+}
+
+body {
+    background-color: #14213d;
+}
+
+#head-container {
+    width: 40%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border: 0.125rem solid red;
+    display: block;
+    margin: auto;
+    margin-top: 1.25rem;
+}
+
+#first-container {
+    width: 100%;
+    height: 18.75rem;
+    background-color: #caf0f8;
+    margin: 0 auto auto auto;
+    display: block;
+    border-radius: 0.3125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#first-container h3,
+input {
+    margin: 1.25rem auto 40px auto;
+    width: auto;
+    height: 3.125rem;
+    color: #524e41;
+    text-align: center;
+    border: none;
+    font-weight: bolder;
+    font-size: 33px;
+    border-radius: 0.625rem;
+}
+
+#first-child {
+    text-decoration: 2px solid underline black;
+}
+
+#first-container input {
+    color: black;
+    outline: 2px solid black;
+}
+
+#first-container div button {
+    align-items: center;
+    width: 8.125rem;
+    margin-top: 0.625rem;
+    height: 3.125rem;
+    border: none;
+    border-radius: 1.25rem;
+    font-weight: bolder;
+    font-size: 0.9375rem;
+    outline: 2px solid black;
+}
+
+#second-container {
+    background-color: #caf0f8;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 0.3125rem;
+}
+
+.second-cont-child {
+    height: 7.5rem;
+    width: 90%;
+    display: block;
+    margin: auto auto 0.625rem auto;
+    background-color: #03045e;
+    border-radius: 0.9375rem;
+
+}
+
+.second-cont-child div:last-child {
+    margin-bottom: 0;
+}
+
+.second-cont-child p {
+    color: #caf0f8;
+    text-align: center;
+    font-size: 28px;
+
+}
+
+#length-conversion {
+    background-color: #ffc8dd;
+    margin-top: 0.9375rem;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5625rem;
+    color: black;
+}
+
+#volume-conversion {
+    background-color: #ffc8dd;
+    margin-top: 0.9375rem;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    font-size: 1.5625rem;
+
+}
+
+#mass-conversion {
+    background-color: #ffc8dd;
+    margin-top: 0.9375rem;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    font-size: 1.5625rem;
+}
